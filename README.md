@@ -12,4 +12,4 @@ and defensive programming patterns based on real-world debugging scenarios.
 ## Related Insight
 
 Practical debugging explanation:
-https://pyai.io/...
+(Coming soon on pyai.io)
