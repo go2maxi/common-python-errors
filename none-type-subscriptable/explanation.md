@@ -1,6 +1,6 @@
-# Why does this error happen?
+Why does this error happen?
 
-This error occurs when a variable you expect to be a dictionary is actually `None`.
+This error occurs when a variable you expect to be a dictionary is actually None.
 
 Common real-world causes:
 
@@ -8,38 +8,39 @@ Common real-world causes:
 - Database query returning no result
 - A function missing an explicit return statement
 
-Since `None` is not subscriptable, this line:
+Since None is not subscriptable, this line:
 
-    user["name"]
+user["name"]
 
 raises:
 
 TypeError: 'NoneType' object is not subscriptable
 
 
-# How to prevent it
+How to prevent it
 
-## 1. Explicit validation
+1. Explicit validation
 
 Always verify the object before accessing it:
 
-    if user is not None:
-        print(user.get("name"))
+if user is not None:
+    print(user.get("name"))
 
-## 2. Short-circuit evaluation
+
+2. Short-circuit evaluation
 
 Use Python’s short-circuit behavior:
 
-    safe_user = user or {}
-    print(safe_user.get("name", "Unknown"))
+safe_user = user or {}
+print(safe_user.get("name", "Unknown"))
 
-If `user` is None, an empty dictionary is used instead,
-preventing the application from crashing.
+If user is None, an empty dictionary is used instead, preventing the application from crashing.
+
+Note:
+This pattern works because None is a falsy value in Python.
+However, be cautious if other falsy values (such as 0, "", or empty containers) are valid business data, as they will also be replaced by {}.
 
 
-# Practical Insight
+Practical Insight
 
-In production systems, it is better to fix the root cause
-(API reliability, DB consistency) rather than only masking the symptom.
-Defensive coding should complement proper error handling,
-not replace it.
+In production systems, it is better to fix the root cause (API reliability, database consistency) rather than only masking the symptom. Defensive coding should complement proper error handling, not replace it.
