@@ -11,5 +11,5 @@ else:
     print(user.get("name"))
 
 # Defensive Pattern 2: Short-circuit evaluation
-safe_user = fetch_user() or {}
+safe_user = user or {}
 print(safe_user.get("name", "Unknown"))
