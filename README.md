@@ -1,3 +1,7 @@
+# Common Python Errors & Defensive Patterns
+
+A structured collection of reproducible Python runtime errors and practical defensive coding patterns.
+
 ## 📂 Current Error Case
 
 ### TypeError: 'NoneType' object is not subscriptable
