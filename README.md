@@ -1,15 +1,16 @@
-# Common Python Errors
+## 📂 Current Error Case
 
-A curated collection of practical Python error cases
-and defensive programming patterns based on real-world debugging scenarios.
+### TypeError: 'NoneType' object is not subscriptable
 
+Occurs when attempting to access keys or indexes from a `None` object (e.g., `data['key']` or `data[0]`).
 
-## Error Cases
+**Details:**
+- [Reproduce & Fix](./none-type-subscriptable/)
+- [Step-by-step Explanation](./none-type-subscriptable/explanation.md)
 
-- NoneType object is not subscriptable
+---
 
+## 📖 Related Reference
 
-## Related Insight
-
-Practical debugging explanation:
-(Coming soon on pyai.io)
+- Handling Exceptions and Defensive Programming  
+  https://pyai.io/en/python/basic/handling-exceptions/
