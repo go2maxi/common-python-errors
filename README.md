@@ -8,7 +8,7 @@ A structured collection of reproducible Python runtime errors and practical defe
 Occurs when attempting to access keys or indexes from a `None` object.
 
 **Details:**
-- [Reproduce & Fix](none-type-subscriptable.md)
+- [Reproduce & Fix](none-type-subscriptable/explanation.md)
 
 ---
 
