@@ -68,3 +68,9 @@ For a structured explanation of lists, tuples, and dictionaries, see the [lists 
 
 - [IndexError: list index out of range](indexerror-list-index-out-of-range.md)
 - [IndexError: tuple index out of range](indexerror-tuple-index-out-of-range.md)
+---
+
+If you'd like a broader explanation of list index errors, see the main guide:
+
+- [IndexError: list index out of range](indexerror-list-index-out-of-range.md)
+
