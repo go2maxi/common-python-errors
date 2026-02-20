@@ -2,7 +2,7 @@
 
 A structured collection of reproducible Python runtime errors and practical defensive coding patterns.
 
-## 📂 Current Error Case
+## 📂 Current Error Cases
 
 ### TypeError: 'NoneType' object is not subscriptable
 
@@ -10,11 +10,31 @@ Occurs when attempting to access keys or indexes from a `None` object (e.g., `da
 
 **Details:**
 - [Reproduce & Fix](./none-type-subscriptable/)
-- [Step-by-step Explanation](./none-type-subscriptable/explanation.md)
+- (Step-by-step explanation not available in this repo)
+
+---
+
+### IndexError: list index out of range
+
+Occurs when a list element is accessed with an invalid index.
+
+**Details:**
+- [Reproduce & Fix](./indexerror-list-index-out-of-range/)
+- (Detailed explanation not included in this repo)
+
+---
+
+### IndexError: tuple index out of range
+
+Occurs when a tuple element is accessed with an invalid index.
+
+**Details:**
+- [Reproduce & Fix](./indexerror-tuple-index-out-of-range/)
+- (Detailed explanation not included in this repo)
 
 ---
 
 ## 📖 Related Reference
 
-- Handling Exceptions and Defensive Programming  
+- Handling Exceptions and Defensive Programming — a useful reference on pyai.io  
   https://pyai.io/en/python/basic/handling-exceptions/
