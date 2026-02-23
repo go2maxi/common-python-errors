@@ -36,6 +36,13 @@ Occurs when a tuple element is accessed with an invalid index.
 
 ---
 
+### 5. KeyError
+Occurs when accessing a dictionary with a non-existent key.
+
+**Details:**
+- [View Explanation](keyerror/explanation.md)
+
+
 ## 📖 Related Reference
 
 - [Handling Exceptions and Defensive Programming](https://pyai.io/en/python/basic/handling-exceptions/) — A useful reference on pyai.io
