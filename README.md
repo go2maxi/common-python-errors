@@ -8,7 +8,7 @@ A structured collection of reproducible Python runtime errors and practical defe
 Occurs when attempting to access keys or indexes from a `None` object.
 
 **Details:**
-- [Reproduce & Fix](none-type-subscriptable/explanation.md)
+- [View Explanation](none-type-subscriptable/explanation.md)
 
 ---
 
@@ -16,7 +16,7 @@ Occurs when attempting to access keys or indexes from a `None` object.
 Occurs when a list is accessed using a string instead of an integer.
 
 **Details:**
-- [Reproduce & Fix](typeerror-list-indices-must-be-integers-not-str.md)
+- [View Explanation](typeerror-list-indices-must-be-integers-not-str.md)
 
 ---
 
@@ -24,7 +24,7 @@ Occurs when a list is accessed using a string instead of an integer.
 Occurs when a list element is accessed with an invalid index.
 
 **Details:**
-- [Reproduce & Fix](indexerror-list-index-out-of-range.md)
+- [View Explanation](indexerror-list-index-out-of-range.md)
 
 ---
 
@@ -32,7 +32,7 @@ Occurs when a list element is accessed with an invalid index.
 Occurs when a tuple element is accessed with an invalid index.
 
 **Details:**
-- [Reproduce & Fix](indexerror-tuple-index-out-of-range.md)
+- [View Explanation](indexerror-tuple-index-out-of-range.md)
 
 ---
 
