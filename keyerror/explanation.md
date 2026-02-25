@@ -2,7 +2,7 @@
 
 ## What is KeyError?
 
-`KeyError` occurs when attempting to access a dictionary key that does not exist.
+A `KeyError` occurs when attempting to access a dictionary key that does not exist.
 
 ```python
 data = {"name": "Alice"}
@@ -15,12 +15,12 @@ The key `"age"` is not present in the dictionary.
 
 ## Why this happens in real projects
 
-In real-world applications, `KeyError` commonly occurs when:
+In real-world applications, a `KeyError` commonly occurs when:
 
-- Handling external API responses
-- Parsing JSON data
-- Processing dynamic user input
-- Assuming optional fields are always present
+- Handling external API responses.
+- Parsing JSON data.
+- Processing dynamic user input.
+- Assuming optional fields are always present.
 
 Example:
 
@@ -49,13 +49,13 @@ if "age" in response["user"]:
 
 ---
 
-### 2. Use dict.get()
+### 2. Use `dict.get()`
 
 ```python
 age = response["user"].get("age")
 ```
 
-Returns `None` if the key is missing.
+This returns `None` if the key is missing.
 
 You may also provide a default value:
 
@@ -65,7 +65,7 @@ age = response["user"].get("age", 0)
 
 ---
 
-### 3. Using defaultdict (when aggregation is intended)
+### 3. Use defaultdict (when aggregation is intended)
 
 ```python
 from collections import defaultdict
@@ -76,7 +76,5 @@ counter["a"] += 1
 
 `defaultdict` is useful for counting or grouping patterns.
 
-However, if your goal is simply safe lookup, `dict.get()` is usually clearer and more explicit.
+If the goal is safe lookup rather than aggregation, `dict.get()` is usually clearer and more explicit.
 
-
-feat: add reproduction code for keyerror
