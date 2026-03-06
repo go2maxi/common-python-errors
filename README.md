@@ -48,8 +48,12 @@ Occurs when accessing a dictionary with a non-existent key.
 - [Handling Exceptions and Defensive Programming](https://pyai.io/en/python/basic/handling-exceptions/) — A useful reference on pyai.io
 
 ### 6. ValueError
-Occurs when a function receives a value of the correct type but an inappropriate value.
+Occurs when a function receives a value of the right type but an inappropriate value.
 
 **Details:**
-- [invalid literal for int()](valueerror/explanation.md)
+- [View Explanation](valueerror/explanation.md)
+
+---
+
+More error cases will be added as I encounter them while learning Python.
 
