@@ -57,3 +57,7 @@ Occurs when a function receives a value of the right type but an inappropriate v
 
 More error cases will be added as I encounter them while learning Python.
 
+## Error Cases
+
+- attributeerror-nonetype-append
+
