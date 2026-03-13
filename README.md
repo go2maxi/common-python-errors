@@ -12,6 +12,9 @@ Each folder contains:
 
 ## Error Archive
 
+## Name Errors
+- [NameError: name '...' is not defined](nameerror-name-is-not-defined/)
+
 ### TypeError
 - [TypeError: 'NoneType' object is not subscriptable](./typeerror-nonetype-object-not-subscriptable/)
 - [TypeError: list indices must be integers or slices, not str](./typeerror-list-indices-must-be-integers/)
@@ -33,5 +36,4 @@ Each folder contains:
 ---
 
 More error cases will be added as I encounter them while learning Python.
-
 
