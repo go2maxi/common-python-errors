@@ -22,6 +22,7 @@ Each folder contains:
 
 ### AttributeError
 - [AttributeError: 'NoneType' object has no attribute 'append'](./attributeerror-nonetype-append/)
+- [AttributeError: 'NoneType' object has no attribute 'split'](./attributeerror-nonetype-object-has-no-attribute-split/)
 
 ### KeyError
 - [KeyError](./keyerror/)
@@ -32,3 +33,5 @@ Each folder contains:
 ---
 
 More error cases will be added as I encounter them while learning Python.
+
+
