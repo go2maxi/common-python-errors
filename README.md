@@ -24,7 +24,7 @@ Occurs when a list is accessed using a string instead of an integer.
 Occurs when a list element is accessed with an invalid index.
 
 **Details:**
-- [View Explanation](indexerror-list-index-out-of-range.md)
+- [View Explanation](indexerror-list-index-out-of-range/)
 
 ---
 
