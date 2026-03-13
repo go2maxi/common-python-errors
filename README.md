@@ -1,63 +1,34 @@
-# Common Python Errors & Defensive Patterns
+# Common Python Errors
 
-A structured collection of reproducible Python runtime errors and practical defensive coding patterns.
+This is a small collection of Python errors I've encountered while learning.
+I'm saving minimal examples and fixes as I go.
 
-## 📂 Current Error Cases
-
-### 1. TypeError: 'NoneType' object is not subscriptable
-Occurs when attempting to access keys or indexes from a `None` object.
-
-**Details:**
-- [View Explanation](none-type-subscriptable/explanation.md)
+Each folder contains:
+- reproduce.py
+- fix.py
+- README explanation
 
 ---
 
-### 2. TypeError: list indices must be integers or slices, not str
-Occurs when a list is accessed using a string instead of an integer.
+## Error Archive
 
-**Details:**
-- [View Explanation](typeerror-list-indices-must-be-integers-not-str.md)
+### TypeError
+- [TypeError: 'NoneType' object is not subscriptable](./typeerror-nonetype-object-not-subscriptable/)
+- [TypeError: list indices must be integers or slices, not str](./typeerror-list-indices-must-be-integers/)
 
----
+### IndexError
+- [IndexError: list index out of range](./indexerror-list-index-out-of-range/)
+- [IndexError: tuple index out of range](./indexerror-tuple-index-out-of-range/)
 
-### 3. IndexError: list index out of range
-Occurs when a list element is accessed with an invalid index.
+### AttributeError
+- [AttributeError: 'NoneType' object has no attribute 'append'](./attributeerror-nonetype-append/)
 
-**Details:**
-- [View Explanation](indexerror-list-index-out-of-range/)
+### KeyError
+- [KeyError](./keyerror/)
 
----
-
-### 4. IndexError: tuple index out of range
-Occurs when a tuple element is accessed with an invalid index.
-
-**Details:**
-- [View Explanation](indexerror-tuple-index-out-of-range.md)
-
----
-
-### 5. KeyError
-Occurs when accessing a dictionary with a non-existent key.
-
-**Details:**
-- [View Explanation](keyerror/explanation.md)
-
-
-## 📖 Related Reference
-
-- [Handling Exceptions and Defensive Programming](https://pyai.io/en/python/basic/handling-exceptions/) — A useful reference on pyai.io
-
-### 6. ValueError
-Occurs when a function receives a value of the right type but an inappropriate value.
-
-**Details:**
-- [View Explanation](valueerror/explanation.md)
+### ValueError
+- [ValueError](./valueerror/)
 
 ---
 
 More error cases will be added as I encounter them while learning Python.
-
-## Error Cases
-
-- attributeerror-nonetype-append
-
