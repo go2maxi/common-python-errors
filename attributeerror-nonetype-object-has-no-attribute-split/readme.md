@@ -1,8 +1,33 @@
-## What happened
+# AttributeError: 'NoneType' object has no attribute 'split'
 
-I hit this error when I tried to use `.split()` on a variable that turned out to be `None`.
+I tried to call `.split()` on a variable that was `None`.
+
+## reproduce.py
 
 ```python
 username = None
-username.split("_")
-# Raises: AttributeError: 'NoneType' object has no attribute 'split'
+parts = username.split("_")
+print(parts)
+```
+
+## Error message
+
+```
+AttributeError: 'NoneType' object has no attribute 'split'
+```
+
+## fix.py
+
+```python
+username = None
+
+if username is None:
+    print("Username not available")
+    username = ""
+
+parts = username.split("_")
+print(parts)
+```
+
+### Reflection
+Calling string methods on `None` raises AttributeError. I should check for `None` before using string operations.
