@@ -19,6 +19,7 @@ Each folder contains:
 - [TypeError: 'NoneType' object is not subscriptable](./typeerror-nonetype-object-not-subscriptable/)
 - [TypeError: list indices must be integers or slices, not str](./typeerror-list-indices-must-be-integers/)
 - [TypeError: 'int' object is not callable](./typeerror-int-object-not-callable/)
+- [TypeError: can only concatenate str (not "int") to str](./typeerror-unsupported-operand-types/)
 
 ### IndexError
 - [IndexError: list index out of range](./indexerror-list-index-out-of-range/)
@@ -36,11 +37,15 @@ Each folder contains:
 - [IndentationError: unexpected indent](./indentationerror-unexpected-indent/)
 
 ### KeyError
+- [KeyError: 'age'](./keyerror-dictionary-key-not-found/)
 - [KeyError](./keyerror/)
 
 ### ValueError
+- [ValueError: invalid literal for int()](./valueerror-invalid-literal-for-int/)
 - [ValueError](./valueerror/)
 
+### ZeroDivisionError
+- [ZeroDivisionError: division by zero](./zerodivisionerror-division-by-zero/)
 ---
 
 More error cases will be added as I encounter them while learning Python.
