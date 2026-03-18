@@ -23,5 +23,9 @@ print(text[0])
 
 "0" was the problem, not 0.
 
+```
 
+## Reference
+
+- Related case: https://pyai.io/en/python/basic/strings/
 
