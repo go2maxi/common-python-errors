@@ -26,3 +26,8 @@ print(result)
 
 Convert the integer to a string before concatenation.
 
+```
+
+## Reference
+
+- Related case: https://pyai.io/en/python/basic/strings/
