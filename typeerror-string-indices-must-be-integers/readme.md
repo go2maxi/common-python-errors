@@ -27,5 +27,5 @@ print(text[0])
 
 ## Reference
 
-- Related case: https://pyai.io/en/python/basic/strings/
+- Related case: [https://pyai.io/en/python/basic/strings/](https://pyai.io/en/python/basic/strings/)
 
