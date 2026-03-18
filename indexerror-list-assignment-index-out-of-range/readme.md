@@ -1,6 +1,6 @@
 # IndexError: list index out of range
 
-## reproduce.py
+## Reproduce.py
 
 ```python
 numbers = [1, 2, 3]
@@ -13,7 +13,8 @@ IndexError: list index out of range
 
 ```
 
-## fix.py
+## Fix.py
+
 ```python
 numbers = [1, 2, 3]
 print(numbers[2])
@@ -23,9 +24,7 @@ print(numbers[2])
 
 Index 3 was out of range.
 
-```
-
 
 ## Reference
 
-- Related case: [https://pyai.io/en/python/basic/lists/](https://pyai.io/en/python/basic/lists/)
+- Related case: <https://pyai.io/en/python/basic/lists/>

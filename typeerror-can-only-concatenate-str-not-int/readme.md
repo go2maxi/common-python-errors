@@ -1,6 +1,6 @@
 # TypeError: can only concatenate str (not "int") to str
 
-## reproduce.py
+## Reproduce.py
 
 ```python
 text = "Hello"
@@ -14,7 +14,7 @@ print(result)
 TypeError: can only concatenate str (not "int") to str
 ```
 
-## fix.py
+## Fix.py
 
 ```python
 text = "Hello"
@@ -26,10 +26,9 @@ print(result)
 
 Convert the integer to a string before concatenation.
 
-```
-
 
 ## Reference
 
-- Related case: [https://pyai.io/en/python/basic/strings/](https://pyai.io/en/python/basic/strings/)
+- Related case: <https://pyai.io/en/python/basic/strings/>
+
 
