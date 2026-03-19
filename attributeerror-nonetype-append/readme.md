@@ -1,20 +1,29 @@
 # AttributeError: 'NoneType' object has no attribute 'append'
 
-### Error Traceback
+## Reproduce
 
-When I ran the script, Python pointed directly to the line where I called `.append()` on `None`.
+```python
+data = None
+data.append("new item")
+```
 
-```text
-File "reproduce.py", line 4, in <module>
-    data.append("new item")
+## Error Message
+
+```
 AttributeError: 'NoneType' object has no attribute 'append'
+```
 
-### Why it happened
+## Fix
 
-The function I used didn't find anything, so it returned `None`.  
-Python is strict about this: `NoneType` doesn't have an `.append()` method.
+```python
+data = []
 
-### My observation
+data.append("new item")
+```
 
-I keep forgetting that `None` and an empty list `[]` are completely different things.  
-Added a simple check so the script doesn't crash next time.
+## Reflection
+Tried to call append on None.
+
+
+## Reference
+- Related case: <https://pyai.io/en/python/basic/lists/>
