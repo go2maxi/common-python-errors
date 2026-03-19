@@ -34,6 +34,7 @@ Each folder contains:
 - [AttributeError: 'list' object has no attribute 'add'](./attributeerror-list-object-has-no-attribute-add/)
 - [AttributeError: 'NoneType' object has no attribute 'append'](./attributeerror-nonetype-append/)
 - [AttributeError: 'NoneType' object has no attribute 'split'](./attributeerror-nonetype-object-has-no-attribute-split/)
+- [AttributeError: 'tuple' object has no attribute 'append'](./attributeerror-tuple-object-has-no-attribute-append/)
 
 
 ### ImportError
