@@ -1,8 +1,6 @@
 # TypeError: can only concatenate str (not "int") to str
 
-Occurs when trying to add a string and an integer.
-
-## reproduce.py
+## Reproduce
 
 ```python
 a = "10"
@@ -16,7 +14,7 @@ print(a + b)
 TypeError: can only concatenate str (not "int") to str
 ```
 
-## fix.py
+## Fix
 
 ```python
 a = "10"
@@ -24,5 +22,10 @@ b = 5
 print(int(a) + b)
 ```
 
-### Reflection
-Ensure operands are of compatible types (e.g., convert using int or str).
+## Reflection
+Tried to add a string and an integer.
+
+
+## Reference
+- Related case: <https://pyai.io/en/python/basic/strings/>
+
