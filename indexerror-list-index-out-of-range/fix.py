@@ -1,4 +1,2 @@
 numbers = [10, 20, 30]
-
-for n in numbers:
-    print(n)
+print(numbers[2])
