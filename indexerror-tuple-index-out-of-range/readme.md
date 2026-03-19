@@ -53,11 +53,11 @@ else:
 
 ## Related List and Tuple Index Errors
 
-- [TypeError: list indices must be integers or slices, not str](typeerror-list-indices-must-be-integers-not-str.md)
+- [TypeError: list indices must be integers or slices, not str](../typeerror-list-indices-must-be-integers/)
 
 ---
 
 If you'd like a broader explanation of list index errors, see the main guide:
 
-- [IndexError: list index out of range](indexerror-list-index-out-of-range.md)
+- [IndexError: list index out of range](../indexerror-list-index-out-of-range/)
 
