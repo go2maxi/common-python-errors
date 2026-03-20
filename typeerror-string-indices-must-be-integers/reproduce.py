@@ -1,2 +1,4 @@
 text = "hello"
-print(text["0"])
+
+idx = "1"
+print(text[idx])

@@ -1,28 +1,35 @@
 # TypeError: string indices must be integers
 
-## Reproduce.py
+## Reproduce
 
 ```python
 text = "hello"
-print(text["0"])
+
+idx = "1"
+print(text[idx])
 ```
 
 ## Error message
 
-TypeError: string indices must be integers
+TypeError: string indices must be integers, not 'str'
 
 ```
 
-## Fix.py
+## Fix
+
 ```python
 text = "hello"
-print(text[0])
+
+idx = int("1")
+print(text[idx])
 ```
 
 ## Reflection
 
-"0" was the problem, not 0.
+I passed a string variable as an index without realizing it.
 
 
 ## Reference
+
 - Related case: <https://pyai.io/en/python/basic/strings/>
+
