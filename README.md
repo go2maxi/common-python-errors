@@ -16,12 +16,17 @@ Each folder contains:
 - [NameError: name '...' is not defined](./nameerror-name-is-not-defined/)
 
 
+### UnboundLocalError
+- [UnboundLocalError: local variable referenced before assignment](./unboundlocalerror-local-variable-referenced-before-assignment/)
+
+
 ### TypeError
 - [TypeError: 'NoneType' object is not subscriptable](./typeerror-nonetype-object-not-subscriptable/)
 - [TypeError: list indices must be integers or slices, not str](./typeerror-list-indices-must-be-integers/)
 - [TypeError: 'int' object is not callable](./typeerror-int-object-not-callable/)
 - [TypeError: can only concatenate str (not "int") to str](./typeerror-unsupported-operand-types/)
 - [TypeError: string indices must be integers](./typeerror-string-indices-must-be-integers/)
+- [TypeError: object of type 'int' has no len()](./typeerror-object-of-type-int-has-no-len/)
 
 
 ### IndexError
@@ -45,6 +50,10 @@ Each folder contains:
 - [ModuleNotFoundError: No module named 'requests'](./modulenotfounderror-no-module-named-requests/)
 
 
+### FileNotFoundError
+- [FileNotFoundError: [Errno 2] No such file or directory](./filenotfounderror-no-such-file-or-directory/)
+
+
 ### IndentationError
 - [IndentationError: unexpected indent](./indentationerror-unexpected-indent/)
 
@@ -57,6 +66,7 @@ Each folder contains:
 ### ValueError
 - [ValueError Guide](./valueerror/)
 - [ValueError: invalid literal for int()](./valueerror-invalid-literal-for-int/)
+- [ValueError: too many values to unpack](./valueerror-too-many-values-to-unpack/)
 
 
 ### ZeroDivisionError
