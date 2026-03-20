@@ -15,7 +15,6 @@ update()
 
 UnboundLocalError: local variable 'count' referenced before assignment
 
-```
 
 ## Fix
 

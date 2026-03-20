@@ -13,7 +13,6 @@ print(text[idx])
 
 TypeError: string indices must be integers, not 'str'
 
-```
 
 ## Fix
 
