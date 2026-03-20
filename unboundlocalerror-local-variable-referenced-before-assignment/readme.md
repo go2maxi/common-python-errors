@@ -33,7 +33,3 @@ print(count)
 
 I tried to update a variable inside a function without declaring it.
 
-
-## Reference
-
-- Related case: <https://pyai.io/en/python/basic/functions/>
