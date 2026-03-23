@@ -1,3 +1,5 @@
-a = "10"
-b = 5
-print(int(a) + b)
+a = 10
+b = "5"
+
+result = a + int(b)
+print(result)

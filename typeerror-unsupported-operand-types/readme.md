@@ -1,31 +1,31 @@
-# TypeError: can only concatenate str (not "int") to str
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 ## Reproduce
 
 ```python
-a = "10"
-b = 5
-print(a + b)
+a = 10
+b = "5"
+
+result = a + b
+print(result)
 ```
 
-## Error message
+## Error Message
 
 ```
-TypeError: can only concatenate str (not "int") to str
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
 ## Fix
 
 ```python
-a = "10"
-b = 5
-print(int(a) + b)
+a = 10
+b = "5"
+
+result = a + int(b)
+print(result)
 ```
 
 ## Reflection
-Tried to add a string and an integer.
 
-
-## Reference
-- Related case: <https://pyai.io/en/python/basic/strings/>
-
+I mixed types without noticing and tried to add them directly.
