@@ -69,7 +69,6 @@ Each folder contains:
 
 
 ### ValueError
-- [ValueError Guide](./valueerror/)
 - [ValueError: invalid literal for int()](./valueerror-invalid-literal-for-int/)
 - [ValueError: too many values to unpack](./valueerror-too-many-values-to-unpack/)
 - [ValueError: not enough values to unpack](./valueerror-not-enough-values-to-unpack/)
