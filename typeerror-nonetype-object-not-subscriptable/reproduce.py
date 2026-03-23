@@ -1,9 +1,5 @@
-def fetch_user():
-    # Simulating API failure (returns None)
-    return None
+tags = None  # function returned None
 
-user = fetch_user()
+print(tags[0])
 
-# This line raises:
-# TypeError: 'NoneType' object is not subscriptable
-print(user["name"])
+

@@ -1,46 +1,30 @@
-Why does this error happen?
+# TypeError: 'NoneType' object is not subscriptable
 
-This error occurs when a variable you expect to be a dictionary is actually None.
+## Reproduce
 
-Common real-world causes:
+```python
+tags = None  # function returned None
 
-- API call failure returning None
-- Database query returning no result
-- A function missing an explicit return statement
+print(tags[0])
+```
 
-Since None is not subscriptable, this line:
+## Error Message
 
-user["name"]
-
-raises:
-
+```
 TypeError: 'NoneType' object is not subscriptable
+```
 
 
-How to prevent it
+## Fix
 
-1. Explicit validation
+```python
+tags = ["python", "error"]
 
-Always verify the object before accessing it:
+print(tags[0])
+```
 
-if user is not None:
-    print(user.get("name"))
+## Reflection
 
-
-2. Short-circuit evaluation
-
-Use Python’s short-circuit behavior:
-
-safe_user = user or {}
-print(safe_user.get("name", "Unknown"))
-
-If user is None, an empty dictionary is used instead, preventing the application from crashing.
-
-Note:
-This pattern works because None is a falsy value in Python.
-However, be cautious if other falsy values (such as 0, "", or empty containers) are valid business data, as they will also be replaced by {}.
+I expected a list, but the value was None.
 
 
-Practical Insight
-
-In production systems, it is better to fix the root cause (API reliability, database consistency) rather than only masking the symptom. Defensive coding should complement proper error handling, not replace it.
