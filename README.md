@@ -40,6 +40,7 @@ Each folder contains:
 - [AttributeError: 'NoneType' object has no attribute 'append'](./attributeerror-nonetype-append/)
 - [AttributeError: 'NoneType' object has no attribute 'split'](./attributeerror-nonetype-object-has-no-attribute-split/)
 - [AttributeError: 'tuple' object has no attribute 'append'](./attributeerror-tuple-object-has-no-attribute-append/)
+- [AttributeError: 'str' object has no attribute 'append'](./attributeerror-str-object-has-no-attribute-append/)
 
 
 ### ImportError
@@ -52,6 +53,10 @@ Each folder contains:
 
 ### FileNotFoundError
 - [FileNotFoundError: [Errno 2] No such file or directory](./filenotfounderror-no-such-file-or-directory/)
+
+
+### FileExistsError
+- [FileExistsError: [Errno 17] File exists](./fileexistserror-file-exists/)
 
 
 ### IndentationError
@@ -67,6 +72,7 @@ Each folder contains:
 - [ValueError Guide](./valueerror/)
 - [ValueError: invalid literal for int()](./valueerror-invalid-literal-for-int/)
 - [ValueError: too many values to unpack](./valueerror-too-many-values-to-unpack/)
+- [ValueError: not enough values to unpack](./valueerror-not-enough-values-to-unpack/)
 
 
 ### ZeroDivisionError
