@@ -26,8 +26,10 @@ Missed a colon after function definition.
 
 
 ## Reference
-- Related case: <https://pyai.io/en/python/basic/functions/>
+
+- Related case: <https://pyai.io/en/python/basic/errors-and-tracebacks/>
 
 
 ## Related Context
+
 - Seen while building a simple contact-log script.
