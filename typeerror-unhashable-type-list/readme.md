@@ -30,8 +30,7 @@ Used a list as a dictionary key.
 
 
 ## Reference
-
-- Related case: <https://pyai.io/en/python/basic/dictionaries/>
+- Related case: <https://pyai.io/en/python/basic/sets/>
 
 
 ## Related Context
