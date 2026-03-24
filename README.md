@@ -27,6 +27,8 @@ Each folder contains:
 - [TypeError: can only concatenate str (not "int") to str](./typeerror-unsupported-operand-types/)
 - [TypeError: string indices must be integers](./typeerror-string-indices-must-be-integers/)
 - [TypeError: object of type 'int' has no len()](./typeerror-object-of-type-int-has-no-len/)
+- [TypeError: unhashable type: 'list'](./typeerror-unhashable-type-list/)
+- [TypeError: 'int' object is not subscriptable](./typeerror-int-not-subscriptable/)
 
 
 ### IndexError
@@ -59,6 +61,10 @@ Each folder contains:
 - [FileExistsError: [Errno 17] File exists](./fileexistserror-file-exists/)
 
 
+### SyntaxError
+- [SyntaxError: invalid syntax](./syntaxerror-invalid-syntax/)
+
+
 ### IndentationError
 - [IndentationError: unexpected indent](./indentationerror-unexpected-indent/)
 
@@ -76,7 +82,14 @@ Each folder contains:
 
 ### ZeroDivisionError
 - [ZeroDivisionError: division by zero](./zerodivisionerror-division-by-zero/)
+
 ---
 
 More error cases will be added as I encounter them while learning Python.
+
+---
+
+## Related Mini Projects
+
+- [Contact Log](./mini-projects/contact-log/): Simple grouping logic that applies fixes for common TypeErrors and AttributeErrors.
 

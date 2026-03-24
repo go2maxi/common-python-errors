@@ -29,5 +29,5 @@ parts = username.split("_")
 print(parts)
 ```
 
-### Reflection
-Calling string methods on `None` raises AttributeError. I should check for `None` before using string operations.
+## Reflection
+Forgot to check for None before calling a method.
