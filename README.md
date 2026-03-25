@@ -29,6 +29,7 @@ Each folder contains:
 - [TypeError: object of type 'int' has no len()](./typeerror-object-of-type-int-has-no-len/)
 - [TypeError: unhashable type: 'list'](./typeerror-unhashable-type-list/)
 - [TypeError: 'int' object is not subscriptable](./typeerror-int-not-subscriptable/)
+- [TypeError: greet() missing 1 required positional argument](./typeerror-missing-1-required-positional-argument/)
 
 
 ### IndexError
@@ -59,6 +60,18 @@ Each folder contains:
 
 ### FileExistsError
 - [FileExistsError: [Errno 17] File exists](./fileexistserror-file-exists/)
+
+
+### JSONDecodeError
+- [JSONDecodeError: Expecting value](./jsondecodeerror-expecting-value/)
+
+
+### UnicodeDecodeError
+- [UnicodeDecodeError: 'utf-8' codec can't decode byte](./unicodedecodeerror-utf-8-codec-cant-decode-byte/)
+
+
+### PermissionError
+- [PermissionError: [Errno 13] Permission denied](./permissionerror-errno-13-permission-denied/)
 
 
 ### SyntaxError
@@ -92,4 +105,5 @@ More error cases will be added as I encounter them while learning Python.
 ## Related Mini Projects
 
 - [Contact Log](./mini-projects/contact-log/): Simple grouping logic that applies fixes for common TypeErrors and AttributeErrors.
+- [File Log Reader](./mini-projects/file-log-reader/)
 
