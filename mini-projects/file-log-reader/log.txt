@@ -1,0 +1,6 @@
+[2026-03-25 10:00:01] INFO: System initialization started.
+[2026-03-25 10:05:22] DEBUG: Loading configuration from settings.ini
+[2026-03-25 10:10:45] WARNING: High memory usage detected (85%).
+[2026-03-25 11:00:00] ERROR: Failed to connect to remote server.
+[2026-03-25 11:00:05] INFO: Retrying connection in 30 seconds...
+[2026-03-25 12:00:00] SUCCESS: Backup completed successfully.
