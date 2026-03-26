@@ -2,7 +2,7 @@
 
 Occurs when trying to add an integer and a list.
 
-## reproduce.py
+## Reproduce
 
 ```python
 my_number = 10
@@ -33,3 +33,4 @@ print(result)
 ## Reflection
 
 Thought I could add a list directly to a number.
+
