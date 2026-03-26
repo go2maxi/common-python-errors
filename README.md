@@ -24,18 +24,20 @@ Each folder contains:
 - [TypeError: 'NoneType' object is not subscriptable](./typeerror-nonetype-object-not-subscriptable/)
 - [TypeError: list indices must be integers or slices, not str](./typeerror-list-indices-must-be-integers/)
 - [TypeError: 'int' object is not callable](./typeerror-int-object-not-callable/)
-- [TypeError: can only concatenate str (not "int") to str](./typeerror-unsupported-operand-types/)
+- [TypeError: can only concatenate str (not "int") to str](./typeerror-can-only-concatenate-str-not-int-to-str/)
 - [TypeError: string indices must be integers](./typeerror-string-indices-must-be-integers/)
 - [TypeError: object of type 'int' has no len()](./typeerror-object-of-type-int-has-no-len/)
 - [TypeError: unhashable type: 'list'](./typeerror-unhashable-type-list/)
 - [TypeError: 'int' object is not subscriptable](./typeerror-int-not-subscriptable/)
 - [TypeError: greet() missing 1 required positional argument](./typeerror-missing-1-required-positional-argument/)
+- [TypeError: unsupported operand type(s) for +: 'int' and 'list'](./typeerror-unsupported-operand-type-int-and-list/)
 
 
 ### IndexError
 - [IndexError: list index out of range](./indexerror-list-index-out-of-range/)
 - [IndexError: tuple index out of range](./indexerror-tuple-index-out-of-range/)
 - [IndexError: list assignment index out of range](./indexerror-list-assignment-index-out-of-range/)
+- [IndexError: string index out of range](./indexerror-string-index-out-of-range/)
 
 
 ### AttributeError
@@ -44,6 +46,8 @@ Each folder contains:
 - [AttributeError: 'NoneType' object has no attribute 'split'](./attributeerror-nonetype-object-has-no-attribute-split/)
 - [AttributeError: 'tuple' object has no attribute 'append'](./attributeerror-tuple-object-has-no-attribute-append/)
 - [AttributeError: 'str' object has no attribute 'append'](./attributeerror-str-object-has-no-attribute-append/)
+- [AttributeError: 'int' object has no attribute 'append'](./attributeerror-int-object-has-no-attribute-append/)
+- [AttributeError: 'dict' object has no attribute 'append'](./attributeerror-dict-object-has-no-attribute-append/)
 
 
 ### ImportError
@@ -52,6 +56,7 @@ Each folder contains:
 
 ### ModuleNotFoundError
 - [ModuleNotFoundError: No module named 'requests'](./modulenotfounderror-no-module-named-requests/)
+- [ModuleNotFoundError: No module named 'numpy'](./modulenotfounderror-no-module-named-numpy/)
 
 
 ### FileNotFoundError
@@ -91,6 +96,7 @@ Each folder contains:
 - [ValueError: invalid literal for int()](./valueerror-invalid-literal-for-int/)
 - [ValueError: too many values to unpack](./valueerror-too-many-values-to-unpack/)
 - [ValueError: not enough values to unpack](./valueerror-not-enough-values-to-unpack/)
+- [ValueError: could not convert string to float](./valueerror-could-not-convert-string-to-float/)
 
 
 ### ZeroDivisionError
@@ -106,4 +112,3 @@ More error cases will be added as I encounter them while learning Python.
 
 - [Contact Log](./mini-projects/contact-log/): Simple grouping logic that applies fixes for common TypeErrors and AttributeErrors.
 - [File Log Reader](./mini-projects/file-log-reader/)
-
