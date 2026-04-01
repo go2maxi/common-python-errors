@@ -31,6 +31,7 @@ Each folder contains:
 - [TypeError: 'int' object is not subscriptable](./typeerror-int-not-subscriptable/)
 - [TypeError: greet() missing 1 required positional argument](./typeerror-missing-1-required-positional-argument/)
 - [TypeError: unsupported operand type(s) for +: 'int' and 'list'](./typeerror-unsupported-operand-type-int-and-list/)
+- [TypeError: write() argument must be str, not dict](./typeerror-write-argument-must-be-str-not-dict/)
 
 
 ### IndexError
@@ -69,6 +70,7 @@ Each folder contains:
 
 ### JSONDecodeError
 - [JSONDecodeError: Expecting value](./jsondecodeerror-expecting-value/)
+- [JSONDecodeError: Expecting property name enclosed in double quotes](./jsondecodeerror-expecting-property-name-enclosed-in-double-quotes/)
 
 
 ### UnicodeDecodeError
@@ -90,6 +92,7 @@ Each folder contains:
 ### KeyError
 - [KeyError Guide](./keyerror/)
 - [KeyError: 'age'](./keyerror-dictionary-key-not-found/)
+- [KeyError: 'age'](./keyerror-missing-key-in-json/)
 
 
 ### ValueError
@@ -97,6 +100,7 @@ Each folder contains:
 - [ValueError: too many values to unpack](./valueerror-too-many-values-to-unpack/)
 - [ValueError: not enough values to unpack](./valueerror-not-enough-values-to-unpack/)
 - [ValueError: could not convert string to float](./valueerror-could-not-convert-string-to-float/)
+- [ValueError: could not convert string to float](./valueerror-invalid-literal-for-float/)
 
 
 ### ZeroDivisionError
@@ -110,5 +114,7 @@ More error cases will be added as I encounter them while learning Python.
 
 ## Related Mini Projects
 
-- [Contact Log](./mini-projects/contact-log/): Simple grouping logic that applies fixes for common TypeErrors and AttributeErrors.
-- [File Log Reader](./mini-projects/file-log-reader/)
+- [Contact Log](./mini-projects/contact-log/): `TypeError`, `AttributeError`
+- [File Log Reader](./mini-projects/file-log-reader/): `FileNotFoundError`, `PermissionError`
+- [User Data Processor](./mini-projects/user-data-processor/): `ModuleNotFoundError`, `IndexError`, `TypeError`
+- [JSON Config Loader](./mini-projects/json-config-loader/): `JSONDecodeError`, `KeyError`, `TypeError`, `ValueError`
