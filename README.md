@@ -41,6 +41,10 @@ Each folder contains:
 - [IndexError: string index out of range](./indexerror-string-index-out-of-range/)
 
 
+### NotADirectoryError
+- [NotADirectoryError: [Errno 20] Not a directory](./notadirectoryerror-errno-20-not-a-directory/)
+
+
 ### AttributeError
 - [AttributeError: 'list' object has no attribute 'add'](./attributeerror-list-object-has-no-attribute-add/)
 - [AttributeError: 'NoneType' object has no attribute 'append'](./attributeerror-nonetype-append/)
@@ -58,6 +62,8 @@ Each folder contains:
 ### ModuleNotFoundError
 - [ModuleNotFoundError: No module named 'requests'](./modulenotfounderror-no-module-named-requests/)
 - [ModuleNotFoundError: No module named 'numpy'](./modulenotfounderror-no-module-named-numpy/)
+- [ModuleNotFoundError: No module named 'yaml'](./modulenotfounderror-no-module-named-yaml/)
+- [ModuleNotFoundError: No module named 'pandas'](./modulenotfounderror-no-module-named-pandas/)
 
 
 ### FileNotFoundError
@@ -79,6 +85,7 @@ Each folder contains:
 
 ### PermissionError
 - [PermissionError: [Errno 13] Permission denied](./permissionerror-errno-13-permission-denied/)
+- [PermissionError: [Errno 13] Permission denied: directory](./permissionerror-errno-13-permission-denied-directory/)
 
 
 ### SyntaxError
