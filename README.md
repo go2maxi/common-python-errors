@@ -10,6 +10,14 @@ Each folder contains:
 
 ---
 
+## Common Questions
+
+- Why does Python say "No such file or directory"?
+- Why do I get "AttributeError: 'dict' object has no attribute 'append'"?
+- Why can't Python find my module?
+
+---
+
 ## Error Archive
 
 ### NameError
