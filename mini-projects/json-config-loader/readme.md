@@ -8,12 +8,10 @@ Tried loading config data and using values directly.
 
 Loaded data and used values without checking types or missing keys.
 
+```
 
 
-
-
-\## Troubleshooting
-
+## Troubleshooting
 
 
 \- `FileNotFoundError`: Make sure the config file path is correct.
@@ -23,6 +21,4 @@ Loaded data and used values without checking types or missing keys.
 \- `KeyError`: Ensure required keys exist in the config.
 
 \- `TypeError`: Validate data types before using values.
-
-
 

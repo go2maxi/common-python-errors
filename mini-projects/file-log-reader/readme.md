@@ -9,16 +9,14 @@ log.txt exists and is encoded in cp949.
 ## Reflection
 
 File encoding caused an issue when reading.
+```
 
 
-
-\## Troubleshooting
-
+## Troubleshooting
 
 
-\- `FileNotFoundError`: Check if the file path is correct.
+- `FileNotFoundError`: Check if the file path is correct.
 
-\- `PermissionError`: Make sure you have access to the file.
-
+- `PermissionError`: Make sure you have access to the file.
 
 
