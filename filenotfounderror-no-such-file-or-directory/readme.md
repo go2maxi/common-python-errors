@@ -1,5 +1,8 @@
 # FileNotFoundError: [Errno 2] No such file or directory
 
+This happened when I tried to read a file that wasn’t there.
+
+
 ## Reproduce
 
 ```python
@@ -27,7 +30,7 @@ with open(file_path, "r") as f:
 
 ## Reflection
 
-I tried to read a file that didn’t exist yet.
+I assumed the file already existed without checking.
 
 
 ## Reference
