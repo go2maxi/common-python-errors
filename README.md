@@ -91,6 +91,14 @@ Each folder contains:
 - [UnicodeDecodeError: 'utf-8' codec can't decode byte](./unicodedecodeerror-utf-8-codec-cant-decode-byte/)
 
 
+### Pandas Errors
+- [UnicodeDecodeError: 'utf-8' codec can't decode byte (read_csv)](./pandas-read-csv-unicodedecodeerror-utf-8-codec-cant-decode/)
+- [ParserError: Error tokenizing data](./pandas-read-csv-parsererror-error-tokenizing-data/)
+- [KeyError: column not found](./pandas-keyerror-column-not-found/)
+- [ValueError: Length mismatch](./pandas-valueerror-length-mismatch/)
+- [IndexError: single positional indexer is out-of-bounds](./pandas-indexerror-single-positional-indexer-is-out-of-bounds/)
+
+
 ### PermissionError
 - [PermissionError: [Errno 13] Permission denied](./permissionerror-errno-13-permission-denied/)
 - [PermissionError: [Errno 13] Permission denied: directory](./permissionerror-errno-13-permission-denied-directory/)
