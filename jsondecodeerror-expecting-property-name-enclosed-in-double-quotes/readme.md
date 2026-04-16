@@ -16,7 +16,7 @@ print(parsed)
 ## Error Message
 
 ```
-JSONDecodeError: Expecting property name enclosed in double quotes
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 18 (char 17)
 ```
 
 ## Fix
@@ -32,4 +32,6 @@ print(parsed)
 
 ## Reflection
 
-Used invalid JSON format without quoting property name.
+Used invalid JSON format without quoting a property name. 
+The error message specifically pointed to the location where the quote was missing.
+
