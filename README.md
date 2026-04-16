@@ -71,6 +71,7 @@ Each folder contains:
 - [PermissionError: [Errno 13] Permission denied](./os-permissionerror-errno-13-permission-denied/)
 - [PermissionError: [Errno 13] Permission denied: directory](./permissionerror-errno-13-permission-denied-directory/)
 - [NotADirectoryError: Not a directory](./os-notadirectoryerror-not-a-directory/)
+- [IsADirectoryError: expected file but got directory](./os-isadirectoryerror-expected-file-but-got-dir/)
 
 ### FileExistsError
 - [FileExistsError: [Errno 17] File exists](./fileexistserror-file-exists/)
@@ -78,6 +79,7 @@ Each folder contains:
 ### JSON Errors
 - [JSONDecodeError: Expecting value](./json-jsondecodeerror-expecting-value/)
 - [JSONDecodeError: Expecting property name enclosed in double quotes](./jsondecodeerror-expecting-property-name-enclosed-in-double-quotes/)
+- [JSONDecodeError: Extra data](./json-jsondecodeerror-extra-data/)
 - [TypeError: the JSON object must be str, bytes or bytearray](./json-typeerror-the-json-object-must-be-str-bytes-or-bytearray/)
 
 ### UnicodeDecodeError
@@ -107,6 +109,9 @@ Each folder contains:
 - [ValueError: not enough values to unpack](./valueerror-not-enough-values-to-unpack/)
 - [ValueError: could not convert string to float](./valueerror-could-not-convert-string-to-float/)
 - [ValueError: could not convert string to float](./valueerror-invalid-literal-for-float/)
+
+### RecursionError
+- [RecursionError: maximum recursion depth exceeded](./recursionerror-maximum-recursion-depth-exceeded/)
 
 ### ZeroDivisionError
 - [ZeroDivisionError: division by zero](./zerodivisionerror-division-by-zero/)
