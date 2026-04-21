@@ -12,12 +12,17 @@ Each folder contains:
 
 ## Common Questions
 
-- [Why does Python say "No such file or directory"?](./os-filenotfounderror-no-such-file-or-directory/) (FileNotFoundError)
+- [Why does Python say "No such file or directory"?](./os-filenotfounderror-no-such-file-or-directory/)
 - [Why do I get "AttributeError: 'dict' object has no attribute 'append'"?](./attributeerror-dict-object-has-no-attribute-append/)
 - [Why can't Python find my module?](./modulenotfounderror-no-module-named-requests/) (ModuleNotFoundError, example case)
 - [Why does Python say "list index out of range"?](./indexerror-list-index-out-of-range/) (IndexError)
 - [Why do I get "TypeError" when working with data?](./typeerror-unsupported-operand-type-int-and-list/) (common case)
 - [Why does json.loads() fail to parse my data?](./json-jsondecodeerror-expecting-value/) (JSON Errors)
+- [Why does Python say "No module named 'my_utils'" even though the file exists?](./modulenotfounderror-local-module-not-found/) (local module case)
+- [Why do I get "TypeError: '>' not supported between instances of 'str' and 'int'?](./typeerror-not-supported-between-instances-of-str-and-int/)
+- [Why does Python fail when I just press enter on input()?](./valueerror-invalid-literal-empty-string/)
+- [Why does Python say "cannot import name" even though the module exists?](./importerror-cannot-import-name-specific/)
+- [Why can't Python find my file even though it's in the same folder? (working directory issue)](./os-filenotfounderror-wrong-relative-path/) (relative path issue)
 
 ---
 
@@ -41,6 +46,7 @@ Each folder contains:
 - [TypeError: greet() missing 1 required positional argument](./typeerror-missing-1-required-positional-argument/)
 - [TypeError: unsupported operand type(s) for +: 'int' and 'list'](./typeerror-unsupported-operand-type-int-and-list/)
 - [TypeError: write() argument must be str, not dict](./typeerror-write-argument-must-be-str-not-dict/)
+- [TypeError: '>' not supported between instances of 'str' and 'int'](./typeerror-not-supported-between-instances-of-str-and-int/)
 
 ### IndexError
 - [IndexError: list index out of range](./indexerror-list-index-out-of-range/)
@@ -59,12 +65,14 @@ Each folder contains:
 
 ### ImportError
 - [ImportError: cannot import name '...' from '...'](./importerror-cannot-import-name-from/)
+- [ImportError: cannot import name 'squareroot' from 'math' (typo)](./importerror-cannot-import-name-specific/)
 
 ### ModuleNotFoundError
 - [ModuleNotFoundError: No module named 'requests'](./modulenotfounderror-no-module-named-requests/)
 - [ModuleNotFoundError: No module named 'numpy'](./modulenotfounderror-no-module-named-numpy/)
 - [ModuleNotFoundError: No module named 'yaml'](./modulenotfounderror-no-module-named-yaml/)
 - [ModuleNotFoundError: No module named 'pandas'](./modulenotfounderror-no-module-named-pandas/)
+- [ModuleNotFoundError: No module named 'my_utils'](./modulenotfounderror-local-module-not-found/)
 
 ### OS / File Errors
 - [FileNotFoundError: [Errno 2] No such file or directory](./os-filenotfounderror-no-such-file-or-directory/)
@@ -72,6 +80,7 @@ Each folder contains:
 - [PermissionError: [Errno 13] Permission denied: directory](./permissionerror-errno-13-permission-denied-directory/)
 - [NotADirectoryError: Not a directory](./os-notadirectoryerror-not-a-directory/)
 - [IsADirectoryError: expected file but got directory](./os-isadirectoryerror-expected-file-but-got-dir/)
+- [FileNotFoundError: wrong relative path (same folder issue)](./os-filenotfounderror-wrong-relative-path/)
 
 ### FileExistsError
 - [FileExistsError: [Errno 17] File exists](./fileexistserror-file-exists/)
@@ -104,11 +113,12 @@ Each folder contains:
 - [KeyError: 'age' (JSON Data)](./keyerror-missing-key-in-json/)
 
 ### ValueError
-- [ValueError: invalid literal for int()](./valueerror-invalid-literal-for-int/)
+- [ValueError: invalid literal for int() (non-numeric string)](./valueerror-invalid-literal-for-int/)
 - [ValueError: too many values to unpack](./valueerror-too-many-values-to-unpack/)
 - [ValueError: not enough values to unpack](./valueerror-not-enough-values-to-unpack/)
 - [ValueError: could not convert string to float](./valueerror-could-not-convert-string-to-float/)
 - [ValueError: could not convert string to float](./valueerror-invalid-literal-for-float/)
+- [ValueError: invalid literal for int() (empty input)](./valueerror-invalid-literal-empty-string/)
 
 ### RecursionError
 - [RecursionError: maximum recursion depth exceeded](./recursionerror-maximum-recursion-depth-exceeded/)
