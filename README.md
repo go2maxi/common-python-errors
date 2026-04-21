@@ -60,7 +60,6 @@ Each folder contains:
 - [AttributeError: 'NoneType' object has no attribute 'split'](./attributeerror-nonetype-object-has-no-attribute-split/)
 - [AttributeError: 'tuple' object has no attribute 'append'](./attributeerror-tuple-object-has-no-attribute-append/)
 - [AttributeError: 'str' object has no attribute 'append'](./attributeerror-str-object-has-no-attribute-append/)
-- [AttributeError: 'int' object has no attribute 'append'](./attributeerror-int-object-has-no-attribute-append/)
 - [AttributeError: 'dict' object has no attribute 'append'](./attributeerror-dict-object-has-no-attribute-append/)
 
 ### ImportError
