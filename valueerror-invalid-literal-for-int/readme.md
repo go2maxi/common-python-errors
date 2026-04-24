@@ -5,7 +5,6 @@ Occurs when trying to convert a non-numeric string into an integer.
 ## Reproduce
 
 ```python
-# reproduce.py
 value = "abc"
 number = int(value)
 ```
