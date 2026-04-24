@@ -1,31 +1,40 @@
 # ValueError: could not convert string to float
 
-Occurs when converting a non-numeric string to a float.
+Occurs when a string cannot be converted to a float.
 
 ## Reproduce
 
 ```python
+# reproduce.py
 value = "abc"
 number = float(value)
-print(number)
 ```
 
 ## Error Message
 
 ```
+Traceback (most recent call last):
+  File "reproduce.py", line 2, in <module>
+    number = float(value)
 ValueError: could not convert string to float: 'abc'
 ```
 
 ## Fix
 
 ```python
-value = "abc"
-
-if value.replace('.', '', 1).isdigit():
-    number = float(value)
-    print(number)
+# fix.py
+value = "12.3"
+number = float(value)
+print(number)
 ```
+
+## Output
+
+```
+12.3
+```
+
 
 ## Reflection
 
-Got this while parsing input.
+float() only works with numeric strings.

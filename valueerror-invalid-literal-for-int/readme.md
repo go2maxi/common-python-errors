@@ -1,18 +1,21 @@
-# ValueError: invalid literal for int()
+# ValueError: invalid literal for int() with base 10
 
-Occurs when trying to convert a non-numeric string to an integer.
+Occurs when trying to convert a non-numeric string into an integer.
 
-## reproduce.py
+## Reproduce
 
 ```python
+# reproduce.py
 value = "abc"
 number = int(value)
-print(number)
 ```
 
 ## Error message
 
 ```
+Traceback (most recent call last):
+  File "reproduce.py", line 2, in <module>
+    number = int(value)
 ValueError: invalid literal for int() with base 10: 'abc'
 ```
 
@@ -20,9 +23,16 @@ ValueError: invalid literal for int() with base 10: 'abc'
 
 ```python
 value = "123"
-number = int(value)
-print(number)
+if value.isdigit():
+    number = int(value)
+    print(number)
 ```
 
-### Reflection
-Ensure the string is a valid integer before converting to `int`.
+## Output
+
+```
+123
+```
+
+## Reflection
+The string "abc" cannot be converted to an integer. Check if the string contains only digits before using int().
