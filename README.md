@@ -85,9 +85,9 @@ Each folder contains:
 - [FileExistsError: [Errno 17] File exists](./fileexistserror-file-exists/)
 
 ### JSON Errors
-- [JSONDecodeError: Expecting value](./json-jsondecodeerror-expecting-value/)
+- [JSONDecodeError: Expecting value](./jsondecodeerror-expecting-value/)
 - [JSONDecodeError: Expecting property name enclosed in double quotes](./jsondecodeerror-expecting-property-name-enclosed-in-double-quotes/)
-- [JSONDecodeError: Extra data](./json-jsondecodeerror-extra-data/)
+- [JSONDecodeError: Extra data](./jsondecodeerror-extra-data/)
 - [TypeError: the JSON object must be str, bytes or bytearray](./json-typeerror-the-json-object-must-be-str-bytes-or-bytearray/)
 
 ### UnicodeDecodeError
