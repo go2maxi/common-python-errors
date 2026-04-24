@@ -19,7 +19,7 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'abc'
 ```
 
-## fix.py
+## Fix
 
 ```python
 value = "123"
@@ -35,4 +35,5 @@ if value.isdigit():
 ```
 
 ## Reflection
+
 The string "abc" cannot be converted to an integer. Check if the string contains only digits before using int().

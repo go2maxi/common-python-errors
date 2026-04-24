@@ -5,7 +5,6 @@ Occurs when a string cannot be converted to a float.
 ## Reproduce
 
 ```python
-# reproduce.py
 value = "abc"
 number = float(value)
 ```
@@ -22,7 +21,6 @@ ValueError: could not convert string to float: 'abc'
 ## Fix
 
 ```python
-# fix.py
 value = "12.3"
 number = float(value)
 print(number)
