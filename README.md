@@ -12,12 +12,12 @@ Each folder contains:
 
 ## Common Questions
 
-- [Why does Python say "No such file or directory"?](./os-filenotfounderror-no-such-file-or-directory/)
+- [Why does Python say "No such file or directory"? (wrong path or working directory)](./os-filenotfounderror-no-such-file-or-directory/)
 - [Why do I get "AttributeError: 'dict' object has no attribute 'append'"?](./attributeerror-dict-object-has-no-attribute-append/)
 - [Why can't Python find my module?](./modulenotfounderror-no-module-named-requests/) (ModuleNotFoundError, example case)
 - [Why does Python say "list index out of range"?](./indexerror-list-index-out-of-range/) (IndexError)
 - [Why do I get "TypeError" when working with data?](./typeerror-unsupported-operand-type-int-and-list/) (common case)
-- [Why does json.loads() fail to parse my data?](./json-jsondecodeerror-expecting-value/) (JSON Errors)
+- [Why does json.loads() fail to parse my data?](./jsondecodeerror-expecting-value/) (JSONDecodeError)
 - [Why does Python say "No module named 'my_utils'" even though the file exists?](./modulenotfounderror-local-module-not-found/) (local module case)
 - [Why do I get "TypeError: '>' not supported between instances of 'str' and 'int'?](./typeerror-not-supported-between-instances-of-str-and-int/)
 - [Why does Python fail when I just press enter on input()?](./valueerror-invalid-literal-empty-string/)
@@ -67,14 +67,14 @@ Each folder contains:
 - [ImportError: cannot import name 'squareroot' from 'math' (typo)](./importerror-cannot-import-name-specific/)
 
 ### ModuleNotFoundError
-- [ModuleNotFoundError: No module named 'requests'](./modulenotfounderror-no-module-named-requests/)
+- [ModuleNotFoundError: No module named 'requests' (package not installed)](./modulenotfounderror-no-module-named-requests/)
 - [ModuleNotFoundError: No module named 'numpy'](./modulenotfounderror-no-module-named-numpy/)
 - [ModuleNotFoundError: No module named 'yaml'](./modulenotfounderror-no-module-named-yaml/)
 - [ModuleNotFoundError: No module named 'pandas'](./modulenotfounderror-no-module-named-pandas/)
 - [ModuleNotFoundError: No module named 'my_utils'](./modulenotfounderror-local-module-not-found/)
 
 ### OS / File Errors
-- [FileNotFoundError: [Errno 2] No such file or directory](./os-filenotfounderror-no-such-file-or-directory/)
+- [FileNotFoundError: No such file or directory (wrong path or working directory)](./os-filenotfounderror-no-such-file-or-directory/)
 - [PermissionError: [Errno 13] Permission denied](./os-permissionerror-errno-13-permission-denied/)
 - [PermissionError: [Errno 13] Permission denied: directory](./permissionerror-errno-13-permission-denied-directory/)
 - [NotADirectoryError: Not a directory](./os-notadirectoryerror-not-a-directory/)
@@ -85,7 +85,7 @@ Each folder contains:
 - [FileExistsError: [Errno 17] File exists](./fileexistserror-file-exists/)
 
 ### JSON Errors
-- [JSONDecodeError: Expecting value](./jsondecodeerror-expecting-value/)
+- [JSONDecodeError: Expecting value (empty or invalid JSON)](./jsondecodeerror-expecting-value/)
 - [JSONDecodeError: Expecting property name enclosed in double quotes](./jsondecodeerror-expecting-property-name-enclosed-in-double-quotes/)
 - [JSONDecodeError: Extra data](./jsondecodeerror-extra-data/)
 - [TypeError: the JSON object must be str, bytes or bytearray](./json-typeerror-the-json-object-must-be-str-bytes-or-bytearray/)
@@ -115,8 +115,8 @@ Each folder contains:
 - [ValueError: invalid literal for int() (non-numeric string)](./valueerror-invalid-literal-for-int/)
 - [ValueError: too many values to unpack](./valueerror-too-many-values-to-unpack/)
 - [ValueError: not enough values to unpack](./valueerror-not-enough-values-to-unpack/)
-- [ValueError: could not convert string to float](./valueerror-could-not-convert-string-to-float/)
-- [ValueError: could not convert string to float](./valueerror-invalid-literal-for-float/)
+- [ValueError: could not convert string to float (non-numeric string)](./valueerror-could-not-convert-string-to-float/)
+- [ValueError: invalid literal for float() (non-numeric or malformed string)](./valueerror-invalid-literal-for-float/)
 - [ValueError: invalid literal for int() (empty input)](./valueerror-invalid-literal-empty-string/)
 
 ### RecursionError
