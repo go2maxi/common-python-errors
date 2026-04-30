@@ -1,10 +1,11 @@
-# JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Occurs when trying to parse empty content as JSON.
 
-Occurs when trying to parse an empty file or an empty string as JSON.
+This can happen when:
+- a file exists but is empty
+- a string is empty ("")
+- a string contains only whitespace (" ", "\n")
 
-data.json exists but is completely empty.
-
-## reproduce.py
+## reproduce
 
 ```python
 import json
@@ -17,7 +18,7 @@ with open('data.json', 'r') as f:
 ## Error message
 
 ```
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 ```
 
 ## Fix
@@ -28,11 +29,18 @@ import os
 
 filename = 'data.json'
 
-if os.path.exists(filename) and os.path.getsize(filename) > 0:
+if os.path.exists(filename):
     with open(filename, 'r') as f:
-        data = json.load(f)
+        content = f.read()
+
+        if content.strip():
+            data = json.loads(content)
 ```
 
 ## Reflection
 
-File was empty, so json.load failed.
+I initially thought the JSON file was corrupted.
+
+It turned out the file existed but was empty, or sometimes only contained whitespace.
+
+Checking the content before parsing helped avoid this specific "Expecting value" error.
